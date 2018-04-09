@@ -23,7 +23,6 @@ def maxDepth(node):
             return rDepth+1
  
  
-# Driver program to test above function
 root = tree(1)
 root.left = tree(2)
 root.right = tree(3)
