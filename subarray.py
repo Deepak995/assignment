@@ -9,15 +9,15 @@ class subarray:
         j=k
         while j<len(array):
 
-            sum=sum+array[j]
+            sum=sum+array[j]# adding the sum of every sub array
             #print()
 
 
             h+=[array[j]]
-            if(sum>=maxsum):
+            if(sum>=maxsum):# in every iteration if the sun is greater  then maxsum then save sum into maxsum
                 maxsum=sum
-                f = h
-                h=[]
+                f = h # saving the sunarray into new variables
+                h=[] # emptying the previous sub array
 
 
 
