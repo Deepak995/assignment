@@ -1,12 +1,12 @@
 class tree:
  
-    def __init__(self, data):
+    def __init__(self, data):#creating tree
         self.data = data
         self.left = None
         self.right = None
  
 
-def maxDepth(node):
+def maxDepth(node): #calculating the depth
     if node is None:
         return 0 ; 
  
